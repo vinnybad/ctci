@@ -1,0 +1,9 @@
+#ifndef CTCITestsPrefixHeader_pch
+#define CTCITestsPrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <Specta/Specta.h>
+#define EXP_SHORTHAND
+#import <Expecta/Expecta.h>
+
+#endif

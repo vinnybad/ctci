@@ -13,20 +13,13 @@
 		2B61B0321C925F340008C6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61B0301C925F340008C6B7 /* Main.storyboard */; };
 		2B61B0341C925F340008C6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61B0331C925F340008C6B7 /* Assets.xcassets */; };
 		2B61B0371C925F340008C6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61B0351C925F340008C6B7 /* LaunchScreen.storyboard */; };
-		2B61B0421C925F340008C6B7 /* CTCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B0411C925F340008C6B7 /* CTCITests.m */; };
-		2B61B04D1C925F340008C6B7 /* CTCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B04C1C925F340008C6B7 /* CTCIUITests.m */; };
+		2B61B0421C925F340008C6B7 /* ArraysAndStringsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B0411C925F340008C6B7 /* ArraysAndStringsTests.m */; };
+		54C0E3959E23F1E32AC396AF /* libPods-CTCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF4E6E85E1C75F9C6E9D06E /* libPods-CTCITests.a */; };
 		E6EB05BD3CBD3CEC0803069B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BBE0A98E3D07C1084035B6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2B61B03E1C925F340008C6B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B61B01C1C925F340008C6B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B61B0231C925F340008C6B7;
-			remoteInfo = CTCI;
-		};
-		2B61B0491C925F340008C6B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B61B01C1C925F340008C6B7 /* Project object */;
 			proxyType = 1;
@@ -48,13 +41,16 @@
 		2B61B0361C925F340008C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B61B0381C925F340008C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B61B03D1C925F340008C6B7 /* CTCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B61B0411C925F340008C6B7 /* CTCITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCITests.m; sourceTree = "<group>"; };
+		2B61B0411C925F340008C6B7 /* ArraysAndStringsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraysAndStringsTests.m; sourceTree = "<group>"; };
 		2B61B0431C925F340008C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B61B0481C925F340008C6B7 /* CTCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61B04C1C925F340008C6B7 /* CTCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCIUITests.m; sourceTree = "<group>"; };
 		2B61B04E1C925F340008C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC402091C9260E500797D1F /* CTCTestsPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCTestsPrefixHeader.pch; sourceTree = "<group>"; };
 		6B5D16E349A7F74E32F5E3DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7BE202AF51FE534E206836E0 /* Pods-CTCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTCITests/Pods-CTCITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E0952BF23CCADC8A8E330C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF4E6E85E1C75F9C6E9D06E /* libPods-CTCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3752E2D89EB6025F759FB5 /* Pods-CTCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTCITests/Pods-CTCITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B61B0451C925F340008C6B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				54C0E3959E23F1E32AC396AF /* libPods-CTCITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +90,6 @@
 			children = (
 				2B61B0241C925F340008C6B7 /* CTCI.app */,
 				2B61B03D1C925F340008C6B7 /* CTCITests.xctest */,
-				2B61B0481C925F340008C6B7 /* CTCIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,8 +121,9 @@
 		2B61B0401C925F340008C6B7 /* CTCITests */ = {
 			isa = PBXGroup;
 			children = (
-				2B61B0411C925F340008C6B7 /* CTCITests.m */,
+				2B61B0411C925F340008C6B7 /* ArraysAndStringsTests.m */,
 				2B61B0431C925F340008C6B7 /* Info.plist */,
+				2BC402091C9260E500797D1F /* CTCTestsPrefixHeader.pch */,
 			);
 			path = CTCITests;
 			sourceTree = "<group>";
@@ -152,6 +142,8 @@
 			children = (
 				B3E0952BF23CCADC8A8E330C /* Pods.debug.xcconfig */,
 				6B5D16E349A7F74E32F5E3DC /* Pods.release.xcconfig */,
+				7BE202AF51FE534E206836E0 /* Pods-CTCITests.debug.xcconfig */,
+				EA3752E2D89EB6025F759FB5 /* Pods-CTCITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -160,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				17BBE0A98E3D07C1084035B6 /* libPods.a */,
+				DDF4E6E85E1C75F9C6E9D06E /* libPods-CTCITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B61B0541C925F340008C6B7 /* Build configuration list for PBXNativeTarget "CTCITests" */;
 			buildPhases = (
+				9CFC516C7464DA722206862A /* Check Pods Manifest.lock */,
 				2B61B0391C925F340008C6B7 /* Sources */,
 				2B61B03A1C925F340008C6B7 /* Frameworks */,
 				2B61B03B1C925F340008C6B7 /* Resources */,
+				DCEEEC240A2B9CD2CA900716 /* Copy Pods Resources */,
+				A8E600D1406791AF2CA0649E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,24 +200,6 @@
 			productName = CTCITests;
 			productReference = 2B61B03D1C925F340008C6B7 /* CTCITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2B61B0471C925F340008C6B7 /* CTCIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B61B0571C925F340008C6B7 /* Build configuration list for PBXNativeTarget "CTCIUITests" */;
-			buildPhases = (
-				2B61B0441C925F340008C6B7 /* Sources */,
-				2B61B0451C925F340008C6B7 /* Frameworks */,
-				2B61B0461C925F340008C6B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B61B04A1C925F340008C6B7 /* PBXTargetDependency */,
-			);
-			name = CTCIUITests;
-			productName = CTCIUITests;
-			productReference = 2B61B0481C925F340008C6B7 /* CTCIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -236,10 +214,6 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					2B61B03C1C925F340008C6B7 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 2B61B0231C925F340008C6B7;
-					};
-					2B61B0471C925F340008C6B7 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 2B61B0231C925F340008C6B7;
 					};
@@ -260,7 +234,6 @@
 			targets = (
 				2B61B0231C925F340008C6B7 /* CTCI */,
 				2B61B03C1C925F340008C6B7 /* CTCITests */,
-				2B61B0471C925F340008C6B7 /* CTCIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,13 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2B61B03B1C925F340008C6B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B61B0461C925F340008C6B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,6 +274,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9CFC516C7464DA722206862A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		A1F07E9AC9774F7C9255A431 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +304,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		A8E600D1406791AF2CA0649E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTCITests/Pods-CTCITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C5F54EF2B23AD1F855D883A6 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +332,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEEEC240A2B9CD2CA900716 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTCITests/Pods-CTCITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,15 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B61B0421C925F340008C6B7 /* CTCITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B61B0441C925F340008C6B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B61B04D1C925F340008C6B7 /* CTCIUITests.m in Sources */,
+				2B61B0421C925F340008C6B7 /* ArraysAndStringsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,11 +377,6 @@
 			isa = PBXTargetDependency;
 			target = 2B61B0231C925F340008C6B7 /* CTCI */;
 			targetProxy = 2B61B03E1C925F340008C6B7 /* PBXContainerItemProxy */;
-		};
-		2B61B04A1C925F340008C6B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B61B0231C925F340008C6B7 /* CTCI */;
-			targetProxy = 2B61B0491C925F340008C6B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,10 +487,12 @@
 			baseConfigurationReference = B3E0952BF23CCADC8A8E330C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CTCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -501,17 +501,21 @@
 			baseConfigurationReference = 6B5D16E349A7F74E32F5E3DC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CTCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		2B61B0551C925F340008C6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE202AF51FE534E206836E0 /* Pods-CTCITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = CTCITests/CTCTestsPrefixHeader.pch;
 				INFOPLIST_FILE = CTCITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCITests;
@@ -522,37 +526,15 @@
 		};
 		2B61B0561C925F340008C6B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3752E2D89EB6025F759FB5 /* Pods-CTCITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = CTCITests/CTCTestsPrefixHeader.pch;
 				INFOPLIST_FILE = CTCITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTCI.app/CTCI";
-			};
-			name = Release;
-		};
-		2B61B0581C925F340008C6B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CTCIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CTCI;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		2B61B0591C925F340008C6B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CTCIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinnybad.CTCIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CTCI;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -582,15 +564,6 @@
 			buildConfigurations = (
 				2B61B0551C925F340008C6B7 /* Debug */,
 				2B61B0561C925F340008C6B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B61B0571C925F340008C6B7 /* Build configuration list for PBXNativeTarget "CTCIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B61B0581C925F340008C6B7 /* Debug */,
-				2B61B0591C925F340008C6B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
