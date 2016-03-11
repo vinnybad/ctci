@@ -10,4 +10,6 @@
 
 @interface ArraysAndStrings : NSObject
 
+- (void)replaceSpaces:(char [])str withTrueLength:(int)l andActualLength:(int)al;
+
 @end

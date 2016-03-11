@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B1D03461C92679D00A568D3 /* ArraysAndStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D03451C92679D00A568D3 /* ArraysAndStrings.m */; };
 		2B1D03491C92680800A568D3 /* NSString+ArraysAndStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D03481C92680800A568D3 /* NSString+ArraysAndStrings.m */; };
+		2B387C881C92755900C56033 /* ArrayAndStringsTestsNoBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B387C871C92755900C56033 /* ArrayAndStringsTestsNoBlocks.m */; };
 		2B61B0291C925F340008C6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B0281C925F340008C6B7 /* main.m */; };
 		2B61B02C1C925F340008C6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B02B1C925F340008C6B7 /* AppDelegate.m */; };
 		2B61B02F1C925F340008C6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B02E1C925F340008C6B7 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 		2B1D03451C92679D00A568D3 /* ArraysAndStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraysAndStrings.m; sourceTree = "<group>"; };
 		2B1D03471C92680800A568D3 /* NSString+ArraysAndStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArraysAndStrings.h"; sourceTree = "<group>"; };
 		2B1D03481C92680800A568D3 /* NSString+ArraysAndStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArraysAndStrings.m"; sourceTree = "<group>"; };
+		2B387C871C92755900C56033 /* ArrayAndStringsTestsNoBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayAndStringsTestsNoBlocks.m; sourceTree = "<group>"; };
 		2B61B0241C925F340008C6B7 /* CTCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61B0281C925F340008C6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B61B02A1C925F340008C6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				2B61B0411C925F340008C6B7 /* ArraysAndStringsTests.m */,
 				2B61B0431C925F340008C6B7 /* Info.plist */,
 				2BC402091C9260E500797D1F /* CTCTestsPrefixHeader.pch */,
+				2B387C871C92755900C56033 /* ArrayAndStringsTestsNoBlocks.m */,
 			);
 			path = CTCITests;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B61B0421C925F340008C6B7 /* ArraysAndStringsTests.m in Sources */,
+				2B387C881C92755900C56033 /* ArrayAndStringsTestsNoBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3 +1,5 @@
+#import "ArraysAndStrings.h"
+
 SpecBegin()
 
 describe(@"1.1 - isUnique", ^{
@@ -60,5 +62,6 @@ describe(@"1.2", ^{
     });
     
 });
+
 
 SpecEnd
