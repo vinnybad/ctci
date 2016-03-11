@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1D03461C92679D00A568D3 /* ArraysAndStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D03451C92679D00A568D3 /* ArraysAndStrings.m */; };
+		2B1D03491C92680800A568D3 /* NSString+ArraysAndStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D03481C92680800A568D3 /* NSString+ArraysAndStrings.m */; };
 		2B61B0291C925F340008C6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B0281C925F340008C6B7 /* main.m */; };
 		2B61B02C1C925F340008C6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B02B1C925F340008C6B7 /* AppDelegate.m */; };
 		2B61B02F1C925F340008C6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61B02E1C925F340008C6B7 /* ViewController.m */; };
@@ -30,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		17BBE0A98E3D07C1084035B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1D03441C92679D00A568D3 /* ArraysAndStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraysAndStrings.h; sourceTree = "<group>"; };
+		2B1D03451C92679D00A568D3 /* ArraysAndStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraysAndStrings.m; sourceTree = "<group>"; };
+		2B1D03471C92680800A568D3 /* NSString+ArraysAndStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArraysAndStrings.h"; sourceTree = "<group>"; };
+		2B1D03481C92680800A568D3 /* NSString+ArraysAndStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArraysAndStrings.m"; sourceTree = "<group>"; };
 		2B61B0241C925F340008C6B7 /* CTCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B61B0281C925F340008C6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B61B02A1C925F340008C6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1D03431C92677C00A568D3 /* Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				2B61B02A1C925F340008C6B7 /* AppDelegate.h */,
+				2B61B02B1C925F340008C6B7 /* AppDelegate.m */,
+				2B61B02D1C925F340008C6B7 /* ViewController.h */,
+				2B61B02E1C925F340008C6B7 /* ViewController.m */,
+				2B61B0301C925F340008C6B7 /* Main.storyboard */,
+				2B61B0331C925F340008C6B7 /* Assets.xcassets */,
+				2B61B0351C925F340008C6B7 /* LaunchScreen.storyboard */,
+				2B61B0381C925F340008C6B7 /* Info.plist */,
+			);
+			name = Boilerplate;
+			sourceTree = "<group>";
+		};
 		2B61B01B1C925F340008C6B7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,15 +118,12 @@
 		2B61B0261C925F340008C6B7 /* CTCI */ = {
 			isa = PBXGroup;
 			children = (
-				2B61B02A1C925F340008C6B7 /* AppDelegate.h */,
-				2B61B02B1C925F340008C6B7 /* AppDelegate.m */,
-				2B61B02D1C925F340008C6B7 /* ViewController.h */,
-				2B61B02E1C925F340008C6B7 /* ViewController.m */,
-				2B61B0301C925F340008C6B7 /* Main.storyboard */,
-				2B61B0331C925F340008C6B7 /* Assets.xcassets */,
-				2B61B0351C925F340008C6B7 /* LaunchScreen.storyboard */,
-				2B61B0381C925F340008C6B7 /* Info.plist */,
+				2B1D03431C92677C00A568D3 /* Boilerplate */,
 				2B61B0271C925F340008C6B7 /* Supporting Files */,
+				2B1D03441C92679D00A568D3 /* ArraysAndStrings.h */,
+				2B1D03451C92679D00A568D3 /* ArraysAndStrings.m */,
+				2B1D03471C92680800A568D3 /* NSString+ArraysAndStrings.h */,
+				2B1D03481C92680800A568D3 /* NSString+ArraysAndStrings.m */,
 			);
 			path = CTCI;
 			sourceTree = "<group>";
@@ -356,6 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1D03461C92679D00A568D3 /* ArraysAndStrings.m in Sources */,
+				2B1D03491C92680800A568D3 /* NSString+ArraysAndStrings.m in Sources */,
 				2B61B02F1C925F340008C6B7 /* ViewController.m in Sources */,
 				2B61B02C1C925F340008C6B7 /* AppDelegate.m in Sources */,
 				2B61B0291C925F340008C6B7 /* main.m in Sources */,

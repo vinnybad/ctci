@@ -6,4 +6,6 @@
 #define EXP_SHORTHAND
 #import <Expecta/Expecta.h>
 
+#import "NSString+ArraysAndStrings.h"
+
 #endif
