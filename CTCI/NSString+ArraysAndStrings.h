@@ -10,6 +10,8 @@
 
 @interface NSString (ArraysAndStrings)
 
++ (BOOL)isString:(NSString *)a aPermutationOf:(NSString *)b;
+
 - (BOOL)ctc_isUnique;
 
 @end
